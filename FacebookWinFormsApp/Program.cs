@@ -14,7 +14,8 @@ namespace BasicFacebookFeatures
         [STAThread]
         static void Main()
         {
-            Clipboard.SetText("design.patterns20cc");
+            Clipboard.SetText("Kuxhvjnusv");
+            Console.Write("yoooo");
             FacebookService.s_UseForamttedToStrings = true;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
