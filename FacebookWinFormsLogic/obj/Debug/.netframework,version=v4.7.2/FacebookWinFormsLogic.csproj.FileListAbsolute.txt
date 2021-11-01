@@ -1,0 +1,8 @@
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\bin\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.dll
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\bin\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.pdb
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.csprojAssemblyReference.cache
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.AssemblyInfoInputs.cache
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.AssemblyInfo.cs
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.csproj.CoreCompileInputs.cache
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.dll
+C:\Users\shach\Google Drive\לימודים\שנה ג\סמסטר א\Design patterns\ShacharAlmagor 204805295 LitalGilboa 316262138\FacebookWinFormsLogic\obj\Debug\.netframework,version=v4.7.2\FacebookWinFormsLogic.pdb
