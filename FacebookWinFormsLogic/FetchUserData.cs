@@ -8,7 +8,7 @@ using FacebookWrapper.ObjectModel;
 
 namespace BasicFacebookFeatures
 {
-    class FetchUserData
+    public class FetchUserData
     {
         // Should be the opposite - a User should have as composition a fetching service, posting service etc..
         User m_LoggedInUser;

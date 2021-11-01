@@ -1,4 +1,6 @@
 packages
 .vs
-FacebookWinFormsApp/bin
-FacebookWinFormsApp/obj
+FacebookWinFormsUI/bin
+FacebookWinFormsUI/obj
+FacebookWinFormsLogic/bin
+FacebookWinFormsLogic/obj
