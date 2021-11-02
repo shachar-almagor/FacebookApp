@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FacebookWrapper.ObjectModel;
 using FacebookWrapper;
+using FacebookWinFormsLogic;
 
 namespace BasicFacebookFeatures
 {

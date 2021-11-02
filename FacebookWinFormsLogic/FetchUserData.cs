@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using FacebookWrapper;
 using FacebookWrapper.ObjectModel;
 
-namespace BasicFacebookFeatures
+namespace FacebookWinFormsLogic
 {
     public class FetchUserData
     {
@@ -28,5 +28,14 @@ namespace BasicFacebookFeatures
             return i_LoggedInUser.Albums;
         }
 
+        public FacebookObjectCollection<Event> fetchEvents(User i_LoggedInUser)
+        {
+            return i_LoggedInUser.Events;
+        }
+
+        public FacebookObjectCollection<Group> fetchGroups(User i_LoggedInUser)
+        {
+            return i_LoggedInUser.Groups;
+        }
     }
 }

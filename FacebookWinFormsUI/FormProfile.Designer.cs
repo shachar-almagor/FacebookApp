@@ -29,6 +29,7 @@ namespace BasicFacebookFeatures
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProfile));
             this.pictureBoxAlbums = new System.Windows.Forms.PictureBox();
             this.linkAlbums = new System.Windows.Forms.LinkLabel();
             this.labelAlbums = new System.Windows.Forms.Label();
@@ -49,6 +50,7 @@ namespace BasicFacebookFeatures
             this.pictureBoxAlbums.Location = new System.Drawing.Point(428, 633);
             this.pictureBoxAlbums.Name = "pictureBoxAlbums";
             this.pictureBoxAlbums.Size = new System.Drawing.Size(142, 81);
+            this.pictureBoxAlbums.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxAlbums.TabIndex = 68;
             this.pictureBoxAlbums.TabStop = false;
             // 
@@ -123,9 +125,10 @@ namespace BasicFacebookFeatures
             // 
             // pictureBoxProfile
             // 
-            this.pictureBoxProfile.Location = new System.Drawing.Point(363, 129);
+            this.pictureBoxProfile.Location = new System.Drawing.Point(456, 123);
             this.pictureBoxProfile.Name = "pictureBoxProfile";
             this.pictureBoxProfile.Size = new System.Drawing.Size(258, 171);
+            this.pictureBoxProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxProfile.TabIndex = 82;
             this.pictureBoxProfile.TabStop = false;
             // 
@@ -133,7 +136,8 @@ namespace BasicFacebookFeatures
             // 
             this.pictureBoxCover.Location = new System.Drawing.Point(1, 0);
             this.pictureBoxCover.Name = "pictureBoxCover";
-            this.pictureBoxCover.Size = new System.Drawing.Size(972, 273);
+            this.pictureBoxCover.Size = new System.Drawing.Size(1123, 273);
+            this.pictureBoxCover.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxCover.TabIndex = 83;
             this.pictureBoxCover.TabStop = false;
             // 
@@ -152,8 +156,9 @@ namespace BasicFacebookFeatures
             this.Controls.Add(this.linkPosts);
             this.Controls.Add(this.labelPosts);
             this.Controls.Add(this.listBoxPosts);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormProfile";
-            this.Text = "FormProfile";
+            this.Text = "Facebook > Profile";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAlbums)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxProfile)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCover)).EndInit();

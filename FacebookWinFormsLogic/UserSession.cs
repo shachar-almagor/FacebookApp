@@ -1,31 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using FacebookWrapper.ObjectModel;
 using FacebookWrapper;
 
-namespace BasicFacebookFeatures
+namespace FacebookWinFormsLogic
 {
-    public partial class FormLogin : Form
+    public class UserSession
     {
-        LoginResult m_LoginResult;
-
-        public FormLogin()
+        public LoginResult login() 
         {
-            InitializeComponent();
-        }
-
-        private void buttonLogin_Click(object sender, EventArgs e)
-        {
-            Clipboard.SetText("design.patterns20cc"); /// the current password for Desig Patter
-
-            m_LoginResult = FacebookService.Login(
+            LoginResult loginResult = FacebookService.Login(
                     /// (This is Desig Patter's App ID. replace it with your own)
                     "584799942640350",
                     /// requested permissions:
@@ -46,13 +33,10 @@ namespace BasicFacebookFeatures
                     /// add any relevant permissions
                     );
 
-            User loggedInUser = m_LoginResult.LoggedInUser;
-            string accessToken = m_LoginResult.AccessToken;
+            User loggedInUser = loginResult.LoggedInUser;
+            string accessToken = loginResult.AccessToken;
 
-            this.Hide();
-
-            FormMain facebookAppForm = new FormMain(loggedInUser);
-            facebookAppForm.ShowDialog();
+            return loginResult;
         }
     }
 }

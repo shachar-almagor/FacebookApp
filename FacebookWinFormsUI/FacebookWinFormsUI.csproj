@@ -143,6 +143,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="assets\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\FacebookWinFormsLogic\FacebookWinFormsLogic.csproj">
       <Project>{3ebc46ca-6f3b-4cf3-9927-b332c44211fb}</Project>
       <Name>FacebookWinFormsLogic</Name>
